@@ -1,0 +1,30 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int X , Y , Z , A;
+      cout<<"Masukan Jumlah Baris : ";
+      cin>>A;
+      cout<<"========================="
+   for(X=A; X>=0; X--){
+   for(Y=X; Y>=0; Y--)
+   {
+      cout<<" ";
+      }
+      for(Z=1; Z<=A; Z++) 
+      {
+      cout<<"*";
+      }
+      for(Z=1; Z<A-X; Z++_
+      {
+      cout<<"*";
+      }
+   cout<<endl;
+   }
+   cout<"=========================";
+getch();
+return 0;
+}
+      
