@@ -7,7 +7,7 @@ int main()
     int X , Y , Z , A;
       cout<<"Masukan Jumlah Baris : ";
       cin>>A;
-      cout<<"========================="
+      cout<<"==================================="
    for(X=A; X>=0; X--){
    for(Y=X; Y>=0; Y--)
    {
@@ -23,7 +23,7 @@ int main()
       }
    cout<<endl;
    }
-   cout<"=========================";
+   cout<"===================================";
 getch();
 return 0;
 }
