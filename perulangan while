@@ -9,6 +9,10 @@ int main ()
         cout<<"\nKeterangan:"<<endl;
         cout<<"_Karakter 'x' untuk keluar dari looping"<<endl;
         cout<<"_karakter lainnya untuk looping"<<endl;
+        cout<<"\nMasukkan karakter : ";
+        cin>>pilih;
+        cout<<endl;
+        }
         cout<<endl;
         cout<<"Keluar dari looping. Ini pernyataan di luar while."<<endl;
         _getche();
